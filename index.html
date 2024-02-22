@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tom Dekel Portfolio</title>
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/gallery.css">
+    <link rel="stylesheet" href="./css/intro.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="headerPic">
+            <a href="index.html">
+                <img src="./pictures/mypicture.jpg" alt="picture of tom dekel">
+            </a>
+            <p>Tom Dekel</p>
+        </div>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class="bx bx-x" id="close-icon"></i>
+        </label>
+
+        <nav class="navbar">
+            <a href="#" style="--i:0;">ראשי</a>
+            <a href="#about" style="--i:1;">אודות</a>
+            <a href="#gallery-header" style="--i:2;">שירותים</a>
+            <a href="#form" style="--i:3;">צור קשר</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+
+        <div id="site-intro">
+            <h1>תיק העבודות שלי</h1>
+            <p>"nothing is impossible, the word itself says 'I'm possible"
+            </p>
+
+
+        </div>
+
+        <div id="about">
+            <img src="./pictures/mypicture.jpg" alt="picture of website developer">
+            <h3>קצת עלי</h3>
+            <p>אני תם דקל מבית הלל שבצפון, במקור עוסק בהתקנות של מערכות גז, ובזמן האחרון נכנסתי לתחום בניית האתרים
+                מכיוון שמגיל קטן נמשכתי לעולם האינטרנט והמחשבים ואני מאמין ששילוב החשיבה היצירתית שלי עם יכולת ההתמדה
+                ולמידה מטעויות תקח אותי רחוק בתחום הזה, כמו שרשום באתר למעלה, אין כזה דבר בלתי אפשרי וזה המוטו שלי
+                בחיים.</p>
+            <a href="" onclick="alert('קורות חיים יצורפו בהמשך')">להורדת קורות חיים</a>
+            <!--gallery header  -->
+            <div id="gallery-header">
+                <h3>עבודות נבחרות</h3>
+                <P style="direction: rtl;">בדף למטה תוכלו לעיין בדפי הנחיתה שיצרתי באמצעות HTML, CSS</P>
+            </div>
+
+        </div>
+
+        <div class="container">
+
+            <div class="card">
+                <div class="img-div"><img src="./pictures/option1.PNG" alt="option 1 img"></div>
+                <h3>תן לנו להוביל אותך קדימה</h3>
+                <p>דף נחיתה מספר 1</p>
+                <button><a href="./option1/projectpreview1.html">לעמוד הפרויקט</a></button>
+            </div>
+            <div class="card">
+                <div class="img-div"><img src="./pictures/option2.PNG" alt="option 2 img"></div>
+                <h3>כאן ועכשיו</h3>
+                <p>דף נחיתה מספר 2</p>
+                <button><a href="./option2/projectpreview2.html">לעמוד הפרויקט</a></button>
+            </div>
+            <div class="card">
+                <div class="img-div"><img src="./pictures/option3.PNG" alt="option 3 img"></div>
+                <h3>קפה טוב לבוקר טוב</h3>
+                <p>דף נחיתה מספר 3</p>
+                <button><a href="./option3/projectpreview3.html">לעמוד הפרויקט</a></button>
+            </div>
+            <div class="card">
+                <div class="img-div"><img src="./pictures/option4.PNG" alt="option 4 img"></div>
+                <h3>תן לנו להוביל אותך קדימה</h3>
+                <p>דף נחיתה מספר 4</p>
+                <button><a href="./option4/projectreview4.html">לעמוד הפרויקט</a></button>
+            </div>
+            <div class="card">
+                <div class="img-div"><img src="./pictures/option5.PNG" alt="option 5 img"></div>
+                <h3>גלריית תמונות</h3>
+                <p>דף נחיתה מספר 5</p>
+                <button><a href="./option5/projectreview5.html">לעמוד הפרויקט</a></button>
+            </div>
+            <div class="card">
+                <div class="img-div"><img src="./pictures/option6.PNG" alt="option 6 img"></div>
+                <h3>ייעוץ טלפוני חינם</h3>
+                <p>דף נחיתה מספר 6</p>
+                <button><a href="./option6/projectreview6.html">לעמוד הפרויקט</a></button>
+            </div>
+        </div>
+
+
+        <!-- contact form -->
+        <div id="form">
+
+            <form>
+                <div class="form-text">
+                    <h3>צור קשר</h3>
+                    <p>לקביעת פגישה עסקית או התייעצות טלפונית ללא עלות אנא מלאו את פרטיכם בטופס למטה:</p>
+                </div>
+                <div class="form-inputs">
+                    <div class="form-control">
+                        <label for="name">שם מלא</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-control">
+                        <label>דוא"ל</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-control">
+                        <label>טלפון</label>
+                        <input type="tel" id="phone" required>
+                    </div>
+                    <div class="form-control">
+                        <label>תוכן ההודעה</label>
+                        <textarea class="form-control" rows="4" cols="50"></textarea>
+                    </div>
+
+                    <div class="form-control">
+                        <input type="submit" value="שליחה" class="button-29">
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="social">
+            <div class="media">
+                <div>
+                    <i class="fa-brands fa-facebook">tom.dekel1</i>
+                </div>
+                <div><i class="fa-solid fa-phone"></i>0523671959</div>
+                <div><i class="fa-brands fa-whatsapp">tom dekel</i></div>
+                <div><i class="fa-solid fa-location-dot">beit hillel</i></div>
+                <div><i class="fa-solid fa-at"></i>dekeltom0@gmail.com</div>
+            </div>
+            <div class="bottom">
+                <P>tom dekel</P>
+                <p>כל הזכויות שמורות</p>
+            </div>
+        </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
